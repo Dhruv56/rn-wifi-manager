@@ -9,6 +9,10 @@
     "test": "jest",
     "lint": "eslint ."
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dhruv56/rn-wifi-manager"
+  },
   "dependencies": {
     "react": "16.9.0",
     "react-native": "0.61.2"
