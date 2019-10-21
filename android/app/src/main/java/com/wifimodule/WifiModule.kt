@@ -15,7 +15,6 @@ class WifiModule//constructor
 
     init {
         wifiManager = this.reactContext.getSystemService(Context.WIFI_SERVICE) as WifiManager
-
     }
 
     //Mandatory function getName that specifies the module name
