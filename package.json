@@ -3,6 +3,7 @@
   "version": "0.0.4",
   "author": "Dhruv soni <dhruvsoni243@gmail.com> (https://github.com/Dhruv56)",
   "react-native": "index.js",
+  "description": "Wifi manager for ios and android",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
