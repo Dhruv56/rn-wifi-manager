@@ -2,6 +2,7 @@
   "name": "rn-wifi-manager",
   "version": "0.0.3",
   "author": "Dhruv soni <dhruvsoni243@gmail.com> (https://github.com/Dhruv56)",
+  "react-native": "index.js",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
