@@ -21,7 +21,6 @@
 		982C5E0AE357615000D16C06 /* libPods-WifiModule-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 949863A63E3690CEBD75A02F /* libPods-WifiModule-tvOSTests.a */; };
 		C1DC576A4FB43A03CE93E8B7 /* libPods-WifiModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8847CD02D5546343BA3747E4 /* libPods-WifiModule.a */; };
 		FC799946235D64AC0087BB3C /* WifiModule.m in Sources */ = {isa = PBXBuildFile; fileRef = FC799945235D64AC0087BB3C /* WifiModule.m */; };
-		FC799949235D73D90087BB3C /* WifiModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC799948235D73D90087BB3C /* WifiModule.swift */; };
 		FC79994C235D7E3E0087BB3C /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC79994B235D7E3E0087BB3C /* NetworkExtension.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,8 +71,6 @@
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		FC799944235D64AC0087BB3C /* WifiModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WifiModule.h; sourceTree = "<group>"; };
 		FC799945235D64AC0087BB3C /* WifiModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WifiModule.m; sourceTree = "<group>"; };
-		FC799947235D73D80087BB3C /* WifiModule-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WifiModule-Bridging-Header.h"; sourceTree = "<group>"; };
-		FC799948235D73D90087BB3C /* WifiModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiModule.swift; sourceTree = "<group>"; };
 		FC79994A235D7E380087BB3C /* WifiModule.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = WifiModule.entitlements; path = WifiModule/WifiModule.entitlements; sourceTree = "<group>"; };
 		FC79994B235D7E3E0087BB3C /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -145,8 +142,6 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 				FC799944235D64AC0087BB3C /* WifiModule.h */,
 				FC799945235D64AC0087BB3C /* WifiModule.m */,
-				FC799948235D73D90087BB3C /* WifiModule.swift */,
-				FC799947235D73D80087BB3C /* WifiModule-Bridging-Header.h */,
 			);
 			name = WifiModule;
 			sourceTree = "<group>";
@@ -549,7 +544,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC799949235D73D90087BB3C /* WifiModule.swift in Sources */,
 				FC799946235D64AC0087BB3C /* WifiModule.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
@@ -605,7 +599,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 934FE2D19C07F15179D2C174 /* Pods-WifiModuleTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -629,7 +622,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6F6A49D8F1107F7B41AAB0B8 /* Pods-WifiModuleTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = WifiModuleTests/Info.plist;
