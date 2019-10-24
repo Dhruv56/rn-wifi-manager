@@ -1,10 +1,6 @@
 {
   "name": "rn-wifi-manager",
-<<<<<<< HEAD
   "version": "0.0.6",
-=======
-  "version": "0.0.5",
->>>>>>> 4f310387180c3cd6596439d9f7db3a34be2d17d7
   "author": "Dhruv soni <dhruvsoni243@gmail.com> (https://github.com/Dhruv56)",
   "react-native": "index.js",
   "description": "Wifi manager for ios and android",
