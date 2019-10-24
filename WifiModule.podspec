@@ -11,8 +11,17 @@ Pod::Spec.new do |s|
   s.authors      = package['author']
   s.homepage     = package['repository']['url']
   s.platform     = :ios, "11.0"
+<<<<<<< HEAD
+  s.ios.deployment_target = "11.0"
+
+  s.source       = { :git => "https://github.com/Dhruv56/rn-wifi-manager.git", :tag => "v#{s.version}" }
+  s.source_files  = "ios/**/*.{h,m}"
+
+  s.dependency 'React'
+=======
 
   s.source       = { :git => "https://github.com/Dhruv56/rn-wifi-manager.git", :tag => "v#{s.version}" }
   s.source_files  = "ios/**/*.{h,m,swift}"
 
+>>>>>>> 4f310387180c3cd6596439d9f7db3a34be2d17d7
 end
